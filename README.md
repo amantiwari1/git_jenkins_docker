@@ -51,6 +51,12 @@ Install jenkins
 ```
 yum install jenkins
 ```
+Install openjdk by jenkins 
+
+```
+yum install java-11-openjdk
+```
+
 ---
 ## Docker Setup in Redhat 8
 
@@ -105,6 +111,9 @@ thats it!!!
 
 #### Step 2 : Create repository 
 
+![Create repository](images/button.png)
+
+
 #### Step 3 : Go To Command/Terminal/ Git Bash
 
 #### Step 4 : Go to login in Command First Below
@@ -141,6 +150,34 @@ $ git remote add origin https://github.com/amantiwari1/jenkins_web_server..git
 
 $ # upload all files to github website using name which add earlier url 
 $ git push -u origin master
+
+---
+Switch to Jenkins !!
+---
+
+start service in rhel 8
+
+```
+$ systemctl start jenkins
+```
+
+find ip address using command
+
+```
+$ ifconfig
+```
+ it is my ip is 192.168.42.164
+ 
+ go to jenkins website
+ 
+ http://192.168.42.164:8080
+ 
+ Note: Port iis 8080 otherwise Not working!!
+ 
+ 
+ 
+ 
+ 
 
 
 
