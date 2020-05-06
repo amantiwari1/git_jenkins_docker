@@ -150,7 +150,7 @@ $ git remote add origin https://github.com/amantiwari1/jenkins_web_server..git
 
 $ # upload all files to github website using name which add earlier url 
 $ git push -u origin master
-
+```
 ---
 Switch to Jenkins !!
 ---
@@ -173,6 +173,18 @@ $ ifconfig
  http://192.168.42.164:8080
  
  Note: Port iis 8080 otherwise Not working!!
+ 
+ it will ask you password 
+ 
+ ```
+ $ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+ 435jwhwj4h5jhw3j5hesh45jhw34ehre
+ ```
+![Create repository](images/password.png)
+
+
+
+ 
  
  
  
