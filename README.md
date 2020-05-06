@@ -88,7 +88,7 @@ make new file 'dokcer.repo'
 
 
 ```
- vim docker.repo 
+vim docker.repo 
 ```
 
 ### or 
