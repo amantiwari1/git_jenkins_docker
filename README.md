@@ -3,7 +3,7 @@
 
 ---
 
-## GIT SETUP
+## Git Setup
 
 
 ## you have to download git software below and Install it 
@@ -112,7 +112,7 @@ yum install docker
 ```
 
 ---
-# GIT Tutorial
+## Git Tutorial
 ### Create New Github Account
 
 [Git Account Sign up](https://github.com/join) 
@@ -120,6 +120,8 @@ yum install docker
 ###  Create New repository in github
 
 [Create repository](https://github.com/new) 
+
+![Create repository](images/yaktocat.png)
 
 
  
