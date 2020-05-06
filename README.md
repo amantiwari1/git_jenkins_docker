@@ -226,7 +226,7 @@ type 'sudo cp -vrf * /web'
 save it
 
 ---
-# Switch to Docker !!!
+Switch to Docker !!!
 ---
 
 Disable Linux Security
@@ -253,6 +253,24 @@ $ docker run -dit --name web1 -p 8081:80 -v "$PWD":/usr/local/apache2/htdocs/ ht
 ```
 
 go to http://192.168.42.164:8081 
+
+check if it is working!!
+
+---
+Switch to Jenkins!!
+---
+
+go to http://192.168.42.164:8080
+
+go to web1 in job
+
+build now if you changed in some file
+
+---
+
+for auto build trigger 
+
+# Coming soon 
 
 
 
