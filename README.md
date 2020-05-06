@@ -19,7 +19,7 @@
 
 
 ```
-yum install git
+yum install git -y
 ```
 
 If not Working 
@@ -49,12 +49,12 @@ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 Install jenkins
 
 ```
-yum install jenkins
+yum install jenkins -y
 ```
 Install openjdk by jenkins 
 
 ```
-yum install java-11-openjdk
+yum install java-11-openjdk -y
 ```
 
 ---
@@ -91,7 +91,7 @@ gpgcheck=0
 install docker 
 
 ``` 
-yum install docker 
+yum install docker -y
 ```
 thats it!!! 
 ---
@@ -215,6 +215,55 @@ go to Source Code Management and tick git
 copy and paste from github url : https://github.com/amantiwari1/jenkins_web_server..git
 
 ![Create repository](images/gitjob.png)
+
+go to build and add execute shell
+
+![Create repository](images/buiildshell.png)
+
+type 'sudo cp -vrf * /web'
+![Create repository](images/shell.png)
+
+save it
+
+---
+# Switch to Docker !!!
+---
+
+Disable Linux Security
+```
+$ setenforce 0
+```
+
+Docker start in service 
+
+```
+$ systemctl start docker
+```
+
+docker download new image 'httpd' for web server
+
+```
+$ docker pull httpd 
+```
+launch httpd with port !!
+
+```
+$ cd web1
+$ docker run -dit --name web1 -p 8081:80 -v "$PWD":/usr/local/apache2/htdocs/ httpd
+```
+
+go to http://192.168.42.164:8081 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
