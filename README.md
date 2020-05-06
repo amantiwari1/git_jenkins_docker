@@ -182,6 +182,37 @@ $ ifconfig
  ```
 ![Create repository](images/password.png)
 
+go to Manage Jenkins > Manage Users > setting logo > password
+
+change password
+
+go to DeshBoard 
+
+go to Manage Jenkins > Manage Plugins > Available 
+
+search 'github'
+
+tap tick it
+
+tap 'Download now and install after restart'
+
+go to DeshBoard 
+
+tap Create New jobs 
+
+type 'web1'
+
+tap Freestyle project and ok
+
+go to Source Code Management and tick git
+
+copy and paste from github url 
+
+https://github.com/amantiwari1/jenkins_web_server..git
+
+![Create repository](images/gitjob.png)
+
+
 
 
  
