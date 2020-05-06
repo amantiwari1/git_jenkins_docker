@@ -194,6 +194,9 @@ search 'github'
 
 tap tick it
 
+![Create repository](https://www.socketxp.com/wp-content/uploads/2019/02/Jenkins-GitHub-Plugin-Install.png)
+
+
 tap 'Download now and install after restart'
 
 go to DeshBoard 
@@ -204,13 +207,16 @@ type 'web1'
 
 tap Freestyle project and ok
 
+![Create repository](http://infoheap.com/wp-content/uploads/2015/12/jenkins-create-new-job-screen.png)
+
+
 go to Source Code Management and tick git
 
-copy and paste from github url 
-
-https://github.com/amantiwari1/jenkins_web_server..git
+copy and paste from github url : https://github.com/amantiwari1/jenkins_web_server..git
 
 ![Create repository](images/gitjob.png)
+
+
 
 
 
