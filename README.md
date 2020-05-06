@@ -121,7 +121,7 @@ yum install docker
 
 [Create repository](https://github.com/new) 
 
-![Create repository](images/yaktocat.png)
+![Create repository](images/github_repo.png)
 
 
  
