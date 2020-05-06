@@ -110,18 +110,35 @@ install docker
 ``` 
 yum install docker 
 ```
-
+thats it!!! 
 ---
-## Git Tutorial
+## Get Start Together!!
+
 ### Create New Github Account
 
 [Git Account Sign up](https://github.com/join) 
 
 ###  Create New repository in github
 
-[Create repository](https://github.com/new) 
+[Create repository](https://github.com/new)
 
 ![Create repository](images/github_repo.png)
+
+#### Step 1 : Type Name repository.
+
+#### Step 2 : Create repository 
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
