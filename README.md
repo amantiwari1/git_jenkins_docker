@@ -91,7 +91,7 @@ gpgcheck=0
 install docker 
 
 ``` 
-yum install docker -y
+ yum install docker-ce -y --nobest
 ```
 thats it!!! 
 ---
