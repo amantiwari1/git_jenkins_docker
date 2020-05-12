@@ -268,9 +268,10 @@ build now if you changed in some file
 
 ---
 
-for auto build trigger 
+for Jenkins with DockerFile
 
-# Coming soon 
+# [Check out for jenkins with dockerfile](https://github.com/amantiwari1/jenkins_with_dockerfile/blob/master/README.md)
+
 
 
 
